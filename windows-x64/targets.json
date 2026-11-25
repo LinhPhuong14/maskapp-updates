@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "fa3b4d063bb0670fd5a5bd9cea0c010afc5c9a0ef1989bec26da8921773cb7c4",
-   "sig": "9ee5d4669648ed8b926bd7b4f4299153fa6af98ec0b717ad3fab26e51cd6ba9605af29fac6b87dc1c2154256e14e9edf44dd9eb5c595acf08161656e4ef87e08"
+   "sig": "53eae76197adbe915ef0c343a7901825bf5426f611e63da8da8239c60044a1507a976c22aac56d12a5d4b8225cd4941ad8080862559a06699874dd49016d1503"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2027-05-24T03:08:39Z",
+  "expires": "2027-05-24T07:18:52Z",
   "spec_version": "1.0.31",
   "targets": {
    "maskapp-0.2.0.tar.gz": {
@@ -21,8 +21,34 @@
      "sha256": "b30fcda6594e3c6150838edb533d7ca758add7b8c7c9a8ac088977baa8b02f13"
     },
     "length": 104208883
+   },
+   "maskapp-0.2.1.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "4350ee2e736423245201f43bc3a5f5d390dc4de63a501750f9e04fd5ed632a28",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 277616640
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "9faa491010abfbfe41b330a2d9d4b2baa12f0f091e4e75dffbc8b5c4aea38a7f"
+    },
+    "length": 39389
+   },
+   "maskapp-0.2.1.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "581c4c02e0c32e9d82b653da0929a3bc1858cadb22777e32eb2354c03ada37ea"
+    },
+    "length": 104211178
    }
   },
-  "version": 2
+  "version": 3
  }
 }
