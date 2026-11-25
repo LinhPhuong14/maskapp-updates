@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "fa3b4d063bb0670fd5a5bd9cea0c010afc5c9a0ef1989bec26da8921773cb7c4",
+   "sig": "9ee5d4669648ed8b926bd7b4f4299153fa6af98ec0b717ad3fab26e51cd6ba9605af29fac6b87dc1c2154256e14e9edf44dd9eb5c595acf08161656e4ef87e08"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2027-05-24T03:08:39Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "maskapp-0.2.0.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "b30fcda6594e3c6150838edb533d7ca758add7b8c7c9a8ac088977baa8b02f13"
+    },
+    "length": 104208883
+   }
+  },
+  "version": 2
+ }
+}
